@@ -2,6 +2,11 @@
 
 Back-to-code learning workbench for Python, TypeScript, contracts, and kernel-stack practice.
 
+## Curriculum
+
+- [`curriculum.kernel-execution.v1.md`](./curriculum.kernel-execution.v1.md): kernel and execution lane curriculum
+- [`curriculum.v0.2.md`](./curriculum.v0.2.md): earlier revision kept for reference
+
 ## Setup
 
 ```bash
