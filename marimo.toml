@@ -1,0 +1,28 @@
+[ai]
+mode = "manual"
+inline_tooltip = true
+rules = """
+Use the Codex agent for notebook edits when the task changes code or structure.
+Keep notebooks reactive, deterministic, and free of hidden state.
+Prefer small, reviewable cells and explicit dataflow.
+"""
+
+[ai.models]
+displayed_models = []
+custom_models = []
+
+[runtime]
+watcher_on_save = "lazy"
+auto_reload = "off"
+reactive_tests = true
+on_cell_change = "autorun"
+
+[package_management]
+manager = "uv"
+
+[server]
+browser = "default"
+follow_symlink = false
+
+[formatting]
+line_length = 100

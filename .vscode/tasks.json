@@ -1,0 +1,59 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "uv: sync",
+      "type": "shell",
+      "command": "just sync",
+      "problemMatcher": []
+    },
+    {
+      "label": "python: run main",
+      "type": "shell",
+      "command": "just run",
+      "problemMatcher": []
+    },
+    {
+      "label": "python: format",
+      "type": "shell",
+      "command": "just fmt",
+      "problemMatcher": []
+    },
+    {
+      "label": "python: lint",
+      "type": "shell",
+      "command": "just lint",
+      "problemMatcher": []
+    },
+    {
+      "label": "python: test",
+      "type": "shell",
+      "command": "just test",
+      "problemMatcher": []
+    },
+    {
+      "label": "ts: format",
+      "type": "shell",
+      "command": "just ts-fmt",
+      "problemMatcher": []
+    },
+    {
+      "label": "ts: format check",
+      "type": "shell",
+      "command": "just ts-fmt-check",
+      "problemMatcher": []
+    },
+    {
+      "label": "ts: typecheck",
+      "type": "shell",
+      "command": "just ts-typecheck",
+      "problemMatcher": []
+    },
+    {
+      "label": "ts: test",
+      "type": "shell",
+      "command": "just ts-test",
+      "problemMatcher": []
+    }
+  ]
+}

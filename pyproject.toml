@@ -1,0 +1,45 @@
+[project]
+name = "b4f"
+version = "0.1.0"
+description = "Back-to-code learning workbench for Python, TypeScript, and contracts"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28",
+    "hypothesis>=6.136",
+    "jsonschema>=4.23",
+    "marimo>=0.22",
+    "msgspec>=0.19",
+    "pydantic>=2.10",
+    "pyyaml>=6.0",
+    "rich>=13.9",
+    "typer>=0.12",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.13",
+    "pytest>=8.3",
+    "ruff>=0.9",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.13"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+no_implicit_optional = true

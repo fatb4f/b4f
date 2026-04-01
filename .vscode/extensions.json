@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    "marimo-team.vscode-marimo",
+    "cuelangorg.vscode-cue",
+    "redhat.vscode-yaml",
+    "tamasfe.even-better-toml",
+    "esbenp.prettier-vscode",
+    "GitLens.gitlens"
+  ]
+}
