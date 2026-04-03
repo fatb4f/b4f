@@ -31,6 +31,8 @@ just ts-test
 
 For marimo notebooks, keep notebook files under [`notebooks/`](./notebooks) and use the notebook-local [`AGENTS.md`](./notebooks/AGENTS.md) as the Codex instruction surface.
 
+The local terminal stack is documented in [`registry-style-user-guide.md`](./registry-style-user-guide.md).
+
 ## VS Code
 
 Open the folder in VS Code and accept the recommended extensions. The workspace is tuned for:
