@@ -23,6 +23,7 @@ just sync
 just run
 just lint
 just test
+just py-typecheck
 just ts-fmt
 just ts-typecheck
 just ts-test
@@ -48,6 +49,7 @@ just run
 just fmt
 just lint
 just test
+just py-typecheck
 just ts-fmt
 just ts-typecheck
 just ts-test

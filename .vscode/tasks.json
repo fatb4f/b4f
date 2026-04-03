@@ -32,6 +32,12 @@
       "problemMatcher": []
     },
     {
+      "label": "python: typecheck",
+      "type": "shell",
+      "command": "just py-typecheck",
+      "problemMatcher": []
+    },
+    {
       "label": "ts: format",
       "type": "shell",
       "command": "just ts-fmt",

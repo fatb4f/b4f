@@ -18,6 +18,9 @@ lint:
 test:
     uv run pytest
 
+py-typecheck:
+    uv run ty check
+
 ts-fmt:
     npm run format
 

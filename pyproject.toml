@@ -18,9 +18,9 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "mypy>=1.13",
     "pytest>=8.3",
     "ruff>=0.9",
+    "ty>=0.0.28",
 ]
 
 [tool.uv]
@@ -36,10 +36,3 @@ target-version = "py313"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
-
-[tool.mypy]
-python_version = "3.13"
-warn_return_any = true
-warn_unused_configs = true
-disallow_untyped_defs = true
-no_implicit_optional = true
